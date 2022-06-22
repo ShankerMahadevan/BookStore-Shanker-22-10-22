@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+body{
+	background-color: silver;
+}
+h1{
+	text-align: center;
+}
+
+ input[type=text] {   
+        width: 30%;   
+        margin: 10px 0;  
+        padding: 10px 30px;   
+        display: inline-block;   
+        border: 2px outset gray;   
+        box-sizing: border-box;   
+    }  
+    input.bc {
+    position :fixed;
+    left: 35%;
+    bottom:70%; 
+}
+   input.bn {
+    position :fixed;
+    left: 35%;
+    bottom:62%; 
+}
+   input.ba {
+    position :fixed;
+    left: 35%;
+    bottom:54%; 
+}
+   input.bp {
+    position :fixed;
+    left: 35%;
+    bottom:46%; 
+}
+label {
+  display: inline-block;
+  width: 500px;
+  right:500px;
+  text-align: right;
+}
